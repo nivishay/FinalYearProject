@@ -1,9 +1,9 @@
-# making_generic/test_match.py
+# mysql_postgresql_convertion/test_match.py
 
 import mysql.connector
 import psycopg2
 import random
-from making_generic.config import MYSQL_CONFIG, POSTGRES_CONFIG
+from mysql_postgresql_convertion.config import MYSQL_CONFIG, POSTGRES_CONFIG
 
 def get_common_tables(mysql_cursor, pg_cursor):
     mysql_cursor.execute(f"""
