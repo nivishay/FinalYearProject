@@ -30,3 +30,4 @@ echo "Migration completed!"
 
 echo "🔍 Running validation script..."
 ##
+#test commit
