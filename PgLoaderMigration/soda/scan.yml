@@ -1,0 +1,12 @@
+checks for actor:
+  - row_count > 0
+  - missing_count(actor_id) = 0
+  - missing_count(first_name) = 0
+
+  - failed rows query:
+      name: no duplicate actor_ids
+      query: |
+        SELECT actor_id
+        FROM actor
+        GROUP BY actor_id
+        HAVING COUNT(*) > 1

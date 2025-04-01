@@ -2,7 +2,7 @@
 MYSQL_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "lior",
+    "password": "root",
     "database": "world",  # <-- Change to 'football' when needed
     "port": 3306
 }
@@ -11,7 +11,7 @@ MYSQL_CONFIG = {
 POSTGRES_CONFIG = {
     "host": "localhost",
     "user": "postgres",
-    "password": "Khturer7",
+    "password": "server",
     "dbname": "postgres",  # <-- Adjust if needed
     "port": 5432
 }

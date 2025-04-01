@@ -1,0 +1,26 @@
+data_source postgres_sakila:
+  type: postgres
+  connection:
+    host: 192.168.1.207
+    port: 5432
+    username: postgres
+    password: postgres
+    database: sakila
+
+data_source mysql_sakila_docker:
+  type: mysql
+  connection:
+    host: localhost
+    port: 3307  # this is a docker port
+    username: root
+    password: rootpass
+    database: sakila
+
+data_source mysql_sakila_main:
+  type: mysql
+  connection:
+    host: 192.168.1.207
+    port: 3306  # this is a docker port
+    username: test_user
+    password: Nivishay12345
+    database: sakila

@@ -62,3 +62,4 @@ pg_cursor.close()
 pg_conn.close()
 
 print("🎉 All tables copied successfully (without foreign keys for now).")
+
