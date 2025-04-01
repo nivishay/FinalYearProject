@@ -1,11 +1,11 @@
-# making_generic/convert_local.py
+# mysql_postgresql_convertion/convert_local.py
 
 import mysql.connector
 import psycopg2
 from psycopg2 import sql
 from sqlalchemy import create_engine, MetaData, Text
 from sqlalchemy.schema import CreateTable
-from making_generic.config import MYSQL_CONFIG, POSTGRES_CONFIG
+from mysql_postgresql_convertion.config import MYSQL_CONFIG, POSTGRES_CONFIG
 
 mysql_conn = mysql.connector.connect(**MYSQL_CONFIG)
 pg_conn = psycopg2.connect(**POSTGRES_CONFIG)
