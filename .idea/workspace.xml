@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="585fbdde-779c-4855-8914-421f91bf3d87" name="Changes" comment="comparing time my_Sql to postgres on sql query">
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/migration.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/mysql8_to_postgres_via57.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/pgloader.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/sakila-data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/sakila-schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/soda/configuration.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/soda/scan.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/soda/validate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local_db/test_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/local_db/test_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/making_generic/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_generic/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/making_generic/convert_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_generic/convert_local.py" afterDir="false" />
+    <list default="true" id="585fbdde-779c-4855-8914-421f91bf3d87" name="Changes" comment="migration using pg loader Mysql to postgres works.">
+      <change afterPath="$PROJECT_DIR$/sakila_comparsion_mySQL_postgres/comparing tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sakila_comparsion_mySQL_postgres/sakila_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PgLoaderMigration/mysql8_to_postgres_via57.sh" beforeDir="false" afterPath="$PROJECT_DIR$/PgLoaderMigration/mysql8_to_postgres_via57.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testing-postgres-and-cloudwatch-apis" />
+        <entry key="$PROJECT_DIR$" value="converting_db" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/migrationMYSQL_TO_POSTGRES.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sakila_comparsion_mySQL_postgres/sakila_test.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -53,15 +45,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.comparing tests.executor": "Run",
     "Python.connect.executor": "Run",
     "Python.convert_local.executor": "Run",
     "Python.loadingSqlScript.executor": "Run",
     "Python.migrationMYSQL_TO_POSTGRES.executor": "Run",
     "Python.run_all.executor": "Run",
+    "Python.sakila_test.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Shell Script.PgloaderUsingSQL5.7script.sh.executor": "Run",
-    "git-widget-placeholder": "converting__db",
+    "git-widget-placeholder": "test",
     "last_opened_file_path": "C:/Users/nivii/programming/CS degree/year 3/WorkShop/FinalYear/PgLoaderMigration",
     "settings.editor.selected.configurable": "terminal"
   }
@@ -71,6 +65,7 @@
       <recent name="C:\Users\nivii\programming\CS degree\year 3\WorkShop\FinalYear\PgLoaderMigration" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nivii\programming\CS degree\year 3\WorkShop\FinalYear\migration" />
       <recent name="C:\Users\nivii\programming\CS degree\year 3\WorkShop\FinalYear\PgLoaderMigration" />
       <recent name="C:\Users\nivii\programming\CS degree\year 3\WorkShop\FinalYear" />
     </key>
@@ -124,7 +119,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742597129828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="migration using pg loader Mysql to postgres works.">
+      <option name="closed" value="true" />
+      <created>1743524592348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743524592348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="migration using pg loader Mysql to postgres works.">
+      <option name="closed" value="true" />
+      <created>1743524700824</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743524700824</updated>
+    </task>
+    <task id="LOCAL-00005" summary="migration using pg loader Mysql to postgres works.">
+      <option name="closed" value="true" />
+      <created>1743525094885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743525094885</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -141,7 +160,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/converting_db" />
+                        <option value="origin/test" />
                       </list>
                     </value>
                   </entry>
@@ -156,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="comparing time my_Sql to postgres on sql query" />
-    <option name="LAST_COMMIT_MESSAGE" value="comparing time my_Sql to postgres on sql query" />
+    <MESSAGE value="migration using pg loader Mysql to postgres works." />
+    <option name="LAST_COMMIT_MESSAGE" value="migration using pg loader Mysql to postgres works." />
   </component>
 </project>

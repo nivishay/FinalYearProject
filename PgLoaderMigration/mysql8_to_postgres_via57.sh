@@ -1,12 +1,12 @@
 #!/bin/bash
 # Had to transfer the data to a 5.7 MySQL
 
+
 # Step 1: Start MySQL 5.7 container
 sudo docker run --name mysql57 \
   -e MYSQL_ROOT_PASSWORD=rootpass \
   -p 3307:3306 \
   -d mysql:5.7
-
 # Step 2: Wait a few seconds for MySQL to initialize
 # this is a must!!
 echo "Waiting for MySQL to initialize..."
