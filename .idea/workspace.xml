@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="585fbdde-779c-4855-8914-421f91bf3d87" name="Changes" comment="comparing time my_Sql to postgres on sql query">
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/migration.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/mysql8_to_postgres_via57.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/pgloader.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/sakila-data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/sakila-schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/soda/configuration.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/soda/scan.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PgLoaderMigration/soda/validate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local_db/test_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/local_db/test_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/making_generic/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_generic/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/making_generic/convert_local.py" beforeDir="false" afterPath="$PROJECT_DIR$/making_generic/convert_local.py" afterDir="false" />
+    <list default="true" id="585fbdde-779c-4855-8914-421f91bf3d87" name="Changes" comment="fixed creation of postgres">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +19,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="test" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testing-postgres-and-cloudwatch-apis" />
+        <entry key="$PROJECT_DIR$" value="converting_db" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +38,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2udOIrHf0E0YznESt1mQSvr0ts1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -61,7 +55,7 @@
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Shell Script.PgloaderUsingSQL5.7script.sh.executor": "Run",
-    "git-widget-placeholder": "converting__db",
+    "git-widget-placeholder": "uploadingDataIntoMySQLRDS",
     "last_opened_file_path": "C:/Users/nivii/programming/CS degree/year 3/WorkShop/FinalYear/PgLoaderMigration",
     "settings.editor.selected.configurable": "terminal"
   }
@@ -156,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="comparing time my_Sql to postgres on sql query" />
-    <option name="LAST_COMMIT_MESSAGE" value="comparing time my_Sql to postgres on sql query" />
+    <MESSAGE value="fixed creation of postgres" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed creation of postgres" />
   </component>
 </project>
