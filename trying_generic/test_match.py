@@ -176,7 +176,6 @@ def main():
     mysql_cursor = mysql_conn.cursor()
     pg_cursor = pg_conn.cursor()
 
-    # נמצא את הטבלאות המשותפות, וגם את כלל הטבלאות בכל צד לצורך דיבאג
     common_tables, mysql_tables_all, pg_tables_all = get_common_tables(mysql_cursor, pg_cursor)
     print(f"\nMySQL tables: {mysql_tables_all}")
     print(f"PostgreSQL tables: {pg_tables_all}")
