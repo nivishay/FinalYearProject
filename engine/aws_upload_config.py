@@ -12,7 +12,7 @@ aws_config = {
     "DBInstanceIdentifier": "postgres-dest-db",
     "DBName": "sakila_migrated",
     "Engine": "postgres",
-    "MasterUsername": "admin",
+    "MasterUsername": "pgadmin",
     "MasterUserPassword": "StrongPassword456",
     "DBInstanceClass": "db.t3.micro",
     "AllocatedStorage": 20

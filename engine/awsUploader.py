@@ -57,7 +57,7 @@ class awsUploader(dbUploader):
         """
         rds = boto3.client('rds')
 
-        for db_type in ['source', 'destination']:
+        for db_type in ['destination']:
             db_config = aws_upload_config[db_type]
             instance_id = db_config['DBInstanceIdentifier']
 
