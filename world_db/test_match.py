@@ -11,7 +11,6 @@ def connect_mysql():
         database="world",
         port=3306
     )
-
 # ✅ CHANGE HERE: PostgreSQL credentials
 def connect_postgres():
     return psycopg2.connect(
